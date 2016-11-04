@@ -84,40 +84,22 @@
 
 
 
-<meta name="description" content="使用next主题，配置阅读次数插件中:hexo g 报一堆js的错误第一次配置不成功，傻傻地根据原文的配置手动方式配置一次。
-备份了文章和主题设置，删掉了hexo，从头再来！
-第二次配置调试#注释代码，发现文字跑到行首：leancloud_visitors:
-  enable: true
-  app_id:  
-  app_key: 
-当取消注释时：
-leancloud_visitors:
-ena">
+<meta name="description" content="固定指向域名之前用jekyll，同步了CNAMAE文件 每次提交就不用再设置域名。转用Hexo时，每次git要设置域名，很麻烦。
+发现用vi写个CNAME文件，放在生成的public文件夹里，就会一并上传，之后就不用再设置域名了。但如果执行了hexo clean就要再考一次。注：不能用mac自带的文本编辑器，因为保存的格式不为空，有引导头。
+使用next主题，配置阅读次数插件中:hexo g 报一">
 <meta property="og:type" content="article">
 <meta property="og:title" content="配置hexo遇到的坑">
 <meta property="og:url" content="http://yoursite.com/2016/11/05/配置hexo遇到的坑/index.html">
 <meta property="og:site_name" content="LittleSix's Notes">
-<meta property="og:description" content="使用next主题，配置阅读次数插件中:hexo g 报一堆js的错误第一次配置不成功，傻傻地根据原文的配置手动方式配置一次。
-备份了文章和主题设置，删掉了hexo，从头再来！
-第二次配置调试#注释代码，发现文字跑到行首：leancloud_visitors:
-  enable: true
-  app_id:  
-  app_key: 
-当取消注释时：
-leancloud_visitors:
-ena">
-<meta property="og:updated_time" content="2016-11-04T18:23:21.000Z">
+<meta property="og:description" content="固定指向域名之前用jekyll，同步了CNAMAE文件 每次提交就不用再设置域名。转用Hexo时，每次git要设置域名，很麻烦。
+发现用vi写个CNAME文件，放在生成的public文件夹里，就会一并上传，之后就不用再设置域名了。但如果执行了hexo clean就要再考一次。注：不能用mac自带的文本编辑器，因为保存的格式不为空，有引导头。
+使用next主题，配置阅读次数插件中:hexo g 报一">
+<meta property="og:updated_time" content="2016-11-04T18:48:37.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="配置hexo遇到的坑">
-<meta name="twitter:description" content="使用next主题，配置阅读次数插件中:hexo g 报一堆js的错误第一次配置不成功，傻傻地根据原文的配置手动方式配置一次。
-备份了文章和主题设置，删掉了hexo，从头再来！
-第二次配置调试#注释代码，发现文字跑到行首：leancloud_visitors:
-  enable: true
-  app_id:  
-  app_key: 
-当取消注释时：
-leancloud_visitors:
-ena">
+<meta name="twitter:description" content="固定指向域名之前用jekyll，同步了CNAMAE文件 每次提交就不用再设置域名。转用Hexo时，每次git要设置域名，很麻烦。
+发现用vi写个CNAME文件，放在生成的public文件夹里，就会一并上传，之后就不用再设置域名了。但如果执行了hexo clean就要再考一次。注：不能用mac自带的文本编辑器，因为保存的格式不为空，有引导头。
+使用next主题，配置阅读次数插件中:hexo g 报一">
 
 
 
@@ -327,9 +309,12 @@ ena">
       
 
       
-        <h3 id="使用next主题，配置阅读次数插件中"><a href="#使用next主题，配置阅读次数插件中" class="headerlink" title="使用next主题，配置阅读次数插件中:"></a>使用next主题，配置阅读次数插件中:</h3><p><strong>hexo g</strong> 报一堆js的错误<br>第一次配置不成功，傻傻地根据原文的配置手动方式配置一次。</p>
+        <h3 id="固定指向域名"><a href="#固定指向域名" class="headerlink" title="固定指向域名"></a>固定指向域名</h3><p>之前用jekyll，同步了CNAMAE文件 每次提交就不用再设置域名。转用Hexo时，每次git要设置域名，很麻烦。</p>
+<p>发现用vi写个CNAME文件，放在生成的public文件夹里，就会一并上传，之后就不用再设置域名了。<strong>但</strong>如果执行了<code>hexo clean</code>就要再考一次。注：不能用mac自带的文本编辑器，因为保存的格式不为空，有引导头。</p>
+<h3 id="使用next主题，配置阅读次数插件中"><a href="#使用next主题，配置阅读次数插件中" class="headerlink" title="使用next主题，配置阅读次数插件中:"></a>使用next主题，配置阅读次数插件中:</h3><p><strong>hexo g</strong> 报一堆js的错误<br>第一次配置不成功，傻傻地根据原文的配置手动方式配置一次。</p>
 <p>备份了文章和主题设置，删掉了hexo，从头再来！</p>
-<h5 id="第二次配置调试-注释代码，发现文字跑到行首："><a href="#第二次配置调试-注释代码，发现文字跑到行首：" class="headerlink" title="第二次配置调试#注释代码，发现文字跑到行首："></a>第二次配置调试#注释代码，发现文字跑到行首：</h5><pre><code>leancloud_visitors:
+<p>第二次配置调试#注释代码，发现文字跑到行首：</p>
+<pre><code>leancloud_visitors:
   enable: true
   app_id:  
   app_key: 
@@ -339,7 +324,8 @@ enable: true
 app_id:  
 app_key: 
 </code></pre><p>我怀疑格式不对导致编译不出来。结果并不是(（&gt; _ &lt;）事实总是这么打脸)</p>
-<h4 id="在原作者评论中提到！！！"><a href="#在原作者评论中提到！！！" class="headerlink" title="在原作者评论中提到！！！"></a>在原作者评论中提到！！！</h4><pre><code>leancloud_visitors:
+<p><strong>在原作者评论中提到！！！</strong></p>
+<pre><code>leancloud_visitors:
   enable: true
   app_id:  
   app_key: 
@@ -495,7 +481,7 @@ app_key:
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#使用next主题，配置阅读次数插件中"><span class="nav-number">1.</span> <span class="nav-text">使用next主题，配置阅读次数插件中:</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#第二次配置调试-注释代码，发现文字跑到行首："><span class="nav-number">1.0.1.</span> <span class="nav-text">第二次配置调试#注释代码，发现文字跑到行首：</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#在原作者评论中提到！！！"><span class="nav-number">1.1.</span> <span class="nav-text">在原作者评论中提到！！！</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#固定指向域名"><span class="nav-number">1.</span> <span class="nav-text">固定指向域名</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#使用next主题，配置阅读次数插件中"><span class="nav-number">2.</span> <span class="nav-text">使用next主题，配置阅读次数插件中:</span></a></li></ol></div>
             
           </div>
         </section>
