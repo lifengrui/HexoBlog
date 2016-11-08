@@ -210,6 +210,16 @@
           </a>
         </li>
       
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404.html" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            公益404
+          </a>
+        </li>
+      
 
       
     </ul>
@@ -309,32 +319,15 @@
       
         
           
-            <h3 id="固定指向域名"><a href="#固定指向域名" class="headerlink" title="固定指向域名"></a>固定指向域名</h3><p>之前用jekyll，同步了CNAMAE文件 每次提交就不用再设置域名。转用Hexo时，每次git要设置域名，很麻烦。</p>
-<p>发现用vi写个CNAME文件，放在生成的public文件夹里，就会一并上传，之后就不用再设置域名了。<strong>但</strong>如果执行了<code>hexo clean</code>就要再考一次。注：不能用mac自带的文本编辑器，因为保存的格式不为空，有引导头。</p>
-<h3 id="使用next主题，配置阅读次数插件中"><a href="#使用next主题，配置阅读次数插件中" class="headerlink" title="使用next主题，配置阅读次数插件中:"></a>使用next主题，配置阅读次数插件中:</h3><p><strong>hexo g</strong> 报一堆js的错误<br>第一次配置不成功，傻傻地根据原文的配置手动方式配置一次。</p>
-<p>备份了文章和主题设置，删掉了hexo，从头再来！</p>
-<p>第二次配置调试#注释代码，发现文字跑到行首：</p>
-<pre><code>leancloud_visitors:
-  enable: true
-  app_id:  
-  app_key: 
-</code></pre><p>当取消注释时：</p>
-<pre><code>leancloud_visitors:
-enable: true
-app_id:  
-app_key: 
-</code></pre><p>我怀疑格式不对导致编译不出来。结果并不是(（&gt; _ &lt;）事实总是这么打脸)</p>
-<p><strong>在原作者评论中提到！！！</strong></p>
-<pre><code>leancloud_visitors:
-  enable: true
-  app_id:  
-  app_key: 
-</code></pre><p><strong>app_id:</strong>后面要两个空格！其他都是一个！</p>
-<p>吐血ing……</p>
-<p>bug害死人， T T</p>
-<p>_End</p>
+          固定指向域名之前用jekyll，同步了CNAMAE文件 每次提交就不用再设置域名。转用Hexo时，每次git要设置域名，很麻烦。
+发现用vi写个CNAME文件，放在生成的public文件夹里，就会一并上传，之后就不用再设置域名了。但如果执行了hexo clean就要再考一次。注：不能用mac自带的文
+          ...
 
-          
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/11/05/配置hexo遇到的坑/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
         
       
     </div>
@@ -442,13 +435,18 @@ app_key:
       
         
           
-            <p>其实今天本来不想发Bolg，也不想编程,看了<a href="http://open.163.com/movie/2015/8/R/N/MB0S0ASKI_MB0S169RN.html" target="_blank" rel="external">娜塔丽波特曼2015哈佛毕业演讲</a>，里面有一句打动了我，我希望在Blog记录下来 </p>
-<blockquote>
-<p><strong>Done.Not good</strong>meaning is 做完这个事，尽管不怎么样</p>
-</blockquote>
-<p>没有经验，不知道如何开始，因为<strong>不知道如何努力而痛苦</strong>希望自己能记住这句<strong>Done.Not good</strong>，然后开始尝试</p>
+          其实今天本来不想发Bolg，也不想编程,看了娜塔丽波特曼2015哈佛毕业演讲，里面有一句打动了我，我希望在Blog记录下来 
 
-          
+Done.Not goodmeaning is 做完这个事，尽管不怎么样
+
+没有经验，不知道如何开始，因为不知道如何努力而痛苦希望自己能记住这句Done.Not good，
+          ...
+
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/10/29/Done.NotGOOD/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
         
       
     </div>
@@ -556,33 +554,17 @@ app_key:
       
         
           
-            <p> 之前有随便写点日记的习惯，但都像流水帐，初学写Bolg，感觉就不同于写日记：</p>
-<blockquote>
-<p>工欲善其事必先利其器：选择MarkdownPad2当编辑器，有免费版，和付费版两种，鉴于自己零收入付费版就23333，不去研究了。</p>
-<p>目前写Blog可能存在某种格式，日后再去了解，现在就markdown来说先吧看的顺眼的语法拿出来用用</p>
-<h2 id="标题"><a href="#标题" class="headerlink" title="#标题"></a><code>#</code>标题</h2><p><strong>作为标题的标记块，1~3个，每多一个标题变小一号，MarkdownPad2 快捷键(<code>Ctrl+1</code>, <code>Ctrl+2</code>, <code>Ctrl+3</code>)，它会生成一对，标题放中间，这样可以明确标题的范围</strong></p>
-<h2 id="无序列表"><a href="#无序列表" class="headerlink" title="* - 无序列表"></a><code>*</code> <code>-</code> 无序列表</h2><ul>
-<li><strong>我好帅实际是<code>- 我好帅</code> 符号要和文字加一个空格，<code>*</code>的效果与<code>-</code>一致，MarkdownPad2 快捷键<code>Ctrl+U</code></strong></li>
-</ul>
-<h2 id="1-有序列表"><a href="#1-有序列表" class="headerlink" title="1. 有序列表"></a><code>1.</code> 有序列表</h2><ol>
-<li></li>
-<li></li>
-<li></li>
-</ol>
-<p><strong>实际是两个<code>1.</code>，这样的话会有标号，感觉会顺便统计有多少要点，MarkdownPad2 快捷键<code>Ctrl+Shift+O</code></strong></p>
-<h2 id="例-lt-img-src-quot-images-avatar-jpg-quot-height-quot-30-quot-width-quot-30-quot-gt-—放置图片"><a href="#例-lt-img-src-quot-images-avatar-jpg-quot-height-quot-30-quot-width-quot-30-quot-gt-—放置图片" class="headerlink" title="例&lt;img src=&quot;/images/avatar.jpg&quot;  height=&quot;30&quot; width=&quot;30&quot;/&gt; —放置图片"></a>例<code>&lt;img src=&quot;/images/avatar.jpg&quot;  height=&quot;30&quot; width=&quot;30&quot;/&gt;</code> —放置图片</h2><p><strong>开始以为markdown和html独立的，原来同时支持- -不太习惯markdown放图片的方式，所以直接用html, MarkdownPad2 快捷键<code>Ctrl+G</code></strong></p>
-<h2 id="描述-url-引用链接"><a href="#描述-url-引用链接" class="headerlink" title="[描述](url) 引用链接"></a><code>[描述](url)</code> 引用链接</h2><p><strong><a href="http://6ls666.com/2016/07/26/LearniMD.html" target="_blank" rel="external">描述</a> 感觉这个挺长用的，但是有个问题，访问引用连接常常会挂掉，所以引用要慎重诶。MarkdownPad2 快捷键<code>Ctrl+L</code></strong></p>
-<h2 id="文字-斜体"><a href="#文字-斜体" class="headerlink" title="*文字* 斜体"></a><code>*文字*</code> 斜体</h2><p><strong><em>文字</em> <code>*</code>要紧贴文字，若空一个就成了无序列表。MarkdownPad2 快捷键<code>Ctrl+I</code></strong></p>
-<h2 id="文字-粗体"><a href="#文字-粗体" class="headerlink" title="**文字** 粗体"></a><code>**文字**</code> 粗体</h2><p> <strong>同理`*</strong><code>可以构成粗体加斜体，MarkdownPad2 快捷键</code>Ctrl+B`**</p>
-<h2 id="分割线"><a href="#分割线" class="headerlink" title="------- 分割线"></a><code>-------</code> 分割线</h2><hr>
-<p><strong>MarkdownPad2 快捷键<code>Ctrl+R</code></strong></p>
-<h2 id="时间戳"><a href="#时间戳" class="headerlink" title="时间戳"></a>时间戳</h2><p><strong><code>7/27/2016 5:50:15 PM</code> MarkdownPad2 快捷键<code>Ctrl+T</code></strong></p>
-</blockquote>
-<hr>
-<p><strong>用着macbook后不知不觉变成<code>快捷键</code>控</strong></p>
-<hr>
+           之前有随便写点日记的习惯，但都像流水帐，初学写Bolg，感觉就不同于写日记：
 
-          
+工欲善其事必先利其器：选择MarkdownPad2当编辑器，有免费版，和付费版两种，鉴于自己零收入付费版就23333，不去研究了。
+目前写Blog可能存在某种格式，日后再去了解，现在就markdown来说先吧看的顺眼的
+          ...
+
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/10/29/LearniMD/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
         
       
     </div>
@@ -671,6 +653,17 @@ app_key:
         
 
         <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/lifengrui" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
           
         </div>
 
